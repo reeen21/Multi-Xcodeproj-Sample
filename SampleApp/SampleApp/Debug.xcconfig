@@ -1,0 +1,16 @@
+// Debug.xcconfig
+// SampleApp - Production環境 Debug設定
+
+#include "../../Base-SampleApp.xcconfig"
+
+// アプリ識別子
+PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleApp
+PRODUCT_NAME = SampleApp
+
+// 表示名
+INFOPLIST_KEY_CFBundleDisplayName = SampleApp
+
+// Debug設定
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
+GCC_OPTIMIZATION_LEVEL = 0

@@ -1,0 +1,6 @@
+// SampleApp-Prod Debug Configuration
+#include? "../Base.xcconfig"
+
+// アプリ名（Productionはタグなし）
+PRODUCT_NAME = SampleApp
+INFOPLIST_KEY_CFBundleDisplayName = SampleApp

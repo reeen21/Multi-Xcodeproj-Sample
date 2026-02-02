@@ -1,0 +1,17 @@
+// Release.xcconfig
+// SampleApp - Production環境 Release設定
+
+#include "../../Base-SampleApp.xcconfig"
+
+// アプリ識別子
+PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleApp
+PRODUCT_NAME = SampleApp
+
+// 表示名
+INFOPLIST_KEY_CFBundleDisplayName = SampleApp
+
+// Release設定
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+SWIFT_OPTIMIZATION_LEVEL = -O
+SWIFT_COMPILATION_MODE = wholemodule
+ENABLE_NS_ASSERTIONS = NO

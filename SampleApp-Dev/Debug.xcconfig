@@ -1,0 +1,5 @@
+// SampleApp-Dev Debug Configuration
+#include? "../Base.xcconfig"
+
+PRODUCT_NAME = SampleApp
+INFOPLIST_KEY_CFBundleDisplayName = [DEV]SampleApp
